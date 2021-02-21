@@ -8,6 +8,7 @@ import {
 
 import Block1 from './components/Block1/Block1.js'
 import Block2 from './components/Block2/Block2.js'
+import Block3 from './components/Block3/Block3.js'
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
     </Router>
       <Block1 />
       <Block2 />
+      <Block3 />
     </>
 
   );
@@ -63,5 +65,3 @@ function Users() {
 }
 
 export default App;
-
-  
