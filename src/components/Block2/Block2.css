@@ -1,0 +1,69 @@
+.block2-background {
+  width: 100vw;
+  background: white;
+}
+
+.block2-container {
+  width: 100%;
+}
+
+.block2-heading {
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+}
+
+.block2-heading h2 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: #4A4A4A;
+}
+
+.block2-heading p {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #676767;
+}
+
+.block2-imagesBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.block2-imagesBox h4 {
+  color: white;
+  text-align: center;
+}
+
+.block2-imagesBox p {
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.imageBox1 {
+  background-color: #4A4A4A;
+  width: 30%;
+}
+
+.imageBox2 {
+  background-color: #4A4A4A;
+  width: 30%;
+}
+
+.imageBox3 {
+  background-color: #4A4A4A;
+  width: 30%;
+}
+
+.energyImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

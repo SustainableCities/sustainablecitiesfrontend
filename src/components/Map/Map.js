@@ -8,6 +8,7 @@ function Map() {
       <>
         <Header />
         <div id="map">
+            map goes here
         </div>
       </>
   );
