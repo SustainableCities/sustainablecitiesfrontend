@@ -21,10 +21,11 @@ const Header = () => {
                     <a href="/contact">Contact</a>
                 </li>
             </ul>
-
-            <div id="goToMap">
-                <span>Got to Interactive Map</span>
-            </div>
+            <a id="goToMapA" href="/map">
+                <div id="goToMap">
+                    <span>Got to Interactive Map</span>
+                </div>
+            </a>
         </header>
         
     )

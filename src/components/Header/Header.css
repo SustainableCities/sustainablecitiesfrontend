@@ -46,6 +46,11 @@ a:hover {
   transition: 0.7s ease;
 }
 
+#goToMapA {
+  position: absolute;
+  right: 8%;
+}
+
 #goToMap {
   width: 120px;
   height: 30px;
@@ -55,9 +60,8 @@ a:hover {
   background-color: white;
   margin: 3%;
   border-radius: 2px;
-  position: absolute;
-  right: 8%;
   font-size: 0.7rem;
+  color: black;
 }
 
 #goToMap:hover {
