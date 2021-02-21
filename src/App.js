@@ -11,6 +11,7 @@ import Block1 from './components/Block1/Block1.js'
 import Block2 from './components/Block2/Block2.js'
 
 import Block4 from './components/Block4/Block4.js'
+import Footer from './components/Footer/Footer.js'
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       <Block2 />
 
       <Block4 />
+      <Footer />
     </>
 
   );

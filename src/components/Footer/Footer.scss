@@ -1,0 +1,32 @@
+$grey: #4A4A4A;
+
+#footer-container{
+    background-color: $grey;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    color: white;
+}
+
+#footerTitle {
+    margin-bottom: 5%;
+}
+
+.smallfont {
+    font-size: .5em;
+}
+
+#footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    // border: 1px solid gold;
+}
