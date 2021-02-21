@@ -6,8 +6,12 @@ import {
   Link
 } from "react-router-dom";
 
+import Block1 from './components/Block1/Block1.js'
+import Block2 from './components/Block2/Block2.js'
+
 function App() {
   return (
+    <>
     <Router>
       <div>
         <nav>
@@ -39,6 +43,10 @@ function App() {
         </Switch>
       </div>
     </Router>
+      <Block1 />
+      <Block2 />
+    </>
+
   );
 }
 
