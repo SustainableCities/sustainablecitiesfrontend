@@ -1,0 +1,42 @@
+.block3-background {
+  width: 100vw;
+  background: #4A4A4A;
+}
+
+.block3-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.block3-textBox {
+  margin-top: 205px;
+  margin-bottom: 104px;
+  margin-left: 75px;
+}
+
+.block3-textBox p {
+  color: white;
+}
+
+.block3-large-text h3 {
+  color: white;
+}
+
+.block3-small-text {
+  display: flex;
+}
+
+.block3-box-text {
+  padding-right: 25px;
+}
+
+.block3-textBox p{
+  color: white;
+}
+
+.block3-image {
+  margin-top: 104px;
+  margin-bottom: 104px;
+  margin-right: 75px;
+  margin-left: 30px;
+}
