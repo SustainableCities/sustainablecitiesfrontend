@@ -1,0 +1,52 @@
+$grey: #4A4A4A;
+
+#block1-container {
+    background-color: $grey;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#titleSpan {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    margin-bottom: 2%;
+}
+
+#buttons-container{
+    display: flex;
+    justify-content: space-between;
+    // border: 1px solid gold;
+    width: 230px;
+    margin: 1%;
+}
+
+#mapBtn {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2px;
+    font-size: .7rem;
+    color: #000000;
+}
+
+#learnMore {
+    width: 100px;
+    height: 30px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
