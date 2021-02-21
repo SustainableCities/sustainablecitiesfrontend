@@ -10,6 +10,8 @@ import Header from './components/Header/Header.js'
 import Block1 from './components/Block1/Block1.js'
 import Block2 from './components/Block2/Block2.js'
 
+import Block4 from './components/Block4/Block4.js'
+
 function App() {
   return (
   //   <Router>
@@ -47,6 +49,8 @@ function App() {
       <Header />
       <Block1 />
       <Block2 />
+
+      <Block4 />
     </>
 
   );
