@@ -25,7 +25,6 @@ const Header = () => {
             <div id="goToMap">
                 <span>Got to Interactive Map</span>
             </div>
-
         </header>
         
     )
