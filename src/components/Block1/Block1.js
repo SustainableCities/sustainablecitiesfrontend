@@ -1,8 +1,6 @@
 import React from "react";
 import './Block1.css'
 
-import landingImage from './images/landingImage.png'
-
 function Block1() {
   return (
       <>
@@ -28,7 +26,3 @@ function Block1() {
 }
 
 export default Block1;
-
-// Image to be used between content and background
-// Needs to be clear background
-// <img src={landingImage} alt="Grey Scale Land Map" />
