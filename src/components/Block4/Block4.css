@@ -1,4 +1,5 @@
 #block4-container {
+  background-image: url('./images/mapLines.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,14 +9,19 @@
 }
 
 #h1 {
-  width: 80%;
+  width: 70%;
   text-align: center;
   margin-bottom: 0.5%;
+  color: #373F41;
 }
 
 #p {
-  width: 80%;
+  width: 45%;
   text-align: center;
+  color: #4A4A4A;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 45px;
 }
 
 #input {
@@ -31,15 +37,15 @@ input {
 }
 
 #text {
-  width: 50%;
+  width: 30%;
 }
 
 #submit {
   background-color: black;
   border: none;
   color: white;
-  height: 30px;
-  width: 22.5%;
+  height: 35px;
+  width: 17%;
 }
 
 #subP {
