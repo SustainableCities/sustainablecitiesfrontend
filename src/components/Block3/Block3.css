@@ -1,6 +1,6 @@
 .block3-background {
   width: 100vw;
-  background: #4A4A4A;
+  background: black;
 }
 
 .block3-container {
@@ -12,6 +12,8 @@
   margin-top: 205px;
   margin-bottom: 104px;
   margin-left: 75px;
+  margin-right: 30px;
+  width: 60%;
 }
 
 .block3-textBox p {
@@ -20,6 +22,8 @@
 
 .block3-large-text h3 {
   color: white;
+  font-size: 40px;
+  font-family: sans-serif;
 }
 
 .block3-small-text {
@@ -28,6 +32,7 @@
 
 .block3-box-text {
   padding-right: 25px;
+  width: 60%;
 }
 
 .block3-textBox p{
@@ -38,5 +43,5 @@
   margin-top: 104px;
   margin-bottom: 104px;
   margin-right: 75px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
