@@ -1,26 +1,27 @@
 header {
   width: 100vw;
-  background-color: #4A4A4A;
+  background-color: black;
   height: 135px;
   display: flex;
   align-items: center;
 }
 
 #logo {
-  width: 120px;
+  /* width: 120px;
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
   margin: 3%;
-  border-radius: 2px;
+  border-radius: 2px; */
 }
 
 #logoImg {
-  height: 50%;
-  width: auto;
-  margin-right: 2%;
+  /* height: 50%;
+  width: auto; */
+  /* margin-right: 2%; */
+  margin-left: 7%;
 }
 
 #nav {
@@ -30,6 +31,7 @@ header {
   right: 30%;
   width: 200px;
   list-style: none;
+  margin-right: 2%;
 }
 
 #title {
@@ -46,21 +48,27 @@ a:hover {
   transition: 0.7s ease;
 }
 
+li {
+  margin-left: 20%;
+}
+
 #goToMapA {
   position: absolute;
   right: 8%;
 }
 
 #goToMap {
-  width: 120px;
-  height: 30px;
+  width: 200px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin: 3%;
+  margin-left: 20%;
+  /* margin-right: 5%; */
   border-radius: 2px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: black;
 }
 
