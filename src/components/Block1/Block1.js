@@ -1,16 +1,23 @@
 import React from "react";
 import './Block1.css'
 
+import landingImage from './images/landingImage.png'
+
 function Block1() {
   return (
       <>
         <div id="block1-container" >
-          <span id="titleSpan" >GreenOps</span>
-          <span>Helping Boston identify sustainable retrofit opportunites</span>
+          <h2 id="titleSpan" >Use our interactive map to identify sustainable retrofitting
+          opportunites in Boston</h2>
+          <p>GreenOps is a visualization tool that highlights areas of the city that are ideal
+          for retrofits. It aims to make data accessible to homeowners, lenders, contactors & residents,
+          with the ultimate goal of stimulating a green economy, and helping the city reach sustainability goals.</p>
           <div id="buttons-container" >
-            <div id="mapBtn">
-                <span>Go to Interactive Map</span>
-            </div>
+            <a id="goToMapB" href="/map">
+              <div id="mapBtn">
+                  <span>Go To Interactive Map</span>
+              </div>
+            </a>
             <div id="learnMore">
                 <span>Learn more</span>
             </div>
@@ -22,4 +29,6 @@ function Block1() {
 
 export default Block1;
 
-  
+// Image to be used between content and background
+// Needs to be clear background
+// <img src={landingImage} alt="Grey Scale Land Map" />
