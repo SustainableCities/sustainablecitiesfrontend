@@ -1,0 +1,24 @@
+#map {
+  height: 50vh;
+  width: 100vw;
+}
+
+.cluster-marker {
+  color: #fff;
+  background: #1978c8;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crime-marker {
+  background: none;
+  border: none;
+}
+
+.crime-marker img {
+  width: 25px;
+}
+
+/*# sourceMappingURL=Map.css.map */
