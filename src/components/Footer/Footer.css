@@ -1,5 +1,5 @@
 #footer-container {
-  background-color: #4A4A4A;
+  background-color: black;
   height: 15vh;
   display: flex;
   justify-content: space-around;
@@ -15,6 +15,7 @@
 
 #footerTitle {
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .smallfont {

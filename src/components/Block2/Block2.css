@@ -19,7 +19,7 @@
   font-size: 40px;
   display: flex;
   justify-content: center;
-  color: #4A4A4A;
+  color: black;
 }
 
 .block2-heading p {
@@ -27,6 +27,7 @@
   display: flex;
   justify-content: center;
   color: #676767;
+  margin-bottom: 5%;
 }
 
 .block2-imagesBox {
@@ -35,30 +36,42 @@
 }
 
 .block2-imagesBox h4 {
-  color: white;
+  color: black;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .block2-imagesBox p {
-  color: white;
+  color: #4A4A4A;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .imageBox1 {
-  background-color: #4A4A4A;
-  width: 30%;
+  /* background-color: #4A4A4A; */
+  width: 33%;
 }
 
 .imageBox2 {
-  background-color: #4A4A4A;
-  width: 30%;
+  /* background-color: #4A4A4A; */
+  width: 33%;
 }
 
 .imageBox3 {
-  background-color: #4A4A4A;
-  width: 30%;
+  /* background-color: #4A4A4A; */
+  width: 33%;
+  /* border-radius: 10% 10% 10% 10%;
+  border-width: medium;
+  border-color: black; */
+}
+
+#borderImage {
+  border: 5px solid black;
+  border-radius: 50%;
+  /* border-radius: 10% 10% 10% 10%;
+  border-width: medium;
+  border-color: black; */
 }
 
 .energyImage {

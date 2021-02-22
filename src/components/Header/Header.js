@@ -1,33 +1,34 @@
 import React from 'react'
 import './Header.css'
 
+import greenOps from './images/greenOps.png'
+
 
 
 const Header = () => {
     return (
         <header>
             <div id="logo">
-                <img src="/earth.png" alt="logo" id="logoImg"/>
-                <span id="title">Title</span>
+                <img src={greenOps} alt="Green Ops Logo" width="250" height="120" id="logoImg"/>
             </div>
             <ul id="nav">
                 <li>
-                    <a href="/home">Home</a>
+                    <a href="/home">HOME</a>
                 </li>
                 <li>
-                    <a href="/About">About</a>
+                    <a href="/About">ABOUT</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <a href="/contact">CONTACT</a>
                 </li>
             </ul>
             <a id="goToMapA" href="/map">
                 <div id="goToMap">
-                    <span>Got to Interactive Map</span>
+                    <span>Go To Interactive Map</span>
                 </div>
             </a>
         </header>
-        
+
     )
 }
 
