@@ -1,6 +1,9 @@
 import React from "react";
 
 import './Block2.css'
+import buildingsIcon from './images/buildingsIcon.png'
+import improveHealth from './images/improveHealth.png'
+import moneyIcon from './images/moneyIcon.png'
 
 function Block2() {
   return (
